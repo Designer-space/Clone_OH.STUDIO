@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  :root{
+    --clr-accent-100: 255 255 255;
+    --clr-accent-200: 232 229 228;
+    --clr-accent-400: 127 127 127;
+    --clr-accent-900: 0 0 0;
+
+    --fluid-header: clamp(2.0625rem, 1.3403rem + 3.6111vw, 4.5rem);
+    --fluid-sub-header: clamp(1.5rem, 1.25rem + 1.25vw, 2.375rem);
+
+    --custom-gap: clamp(1.25rem, -8.75rem + 20.8333vw, 10rem);
+  }
+  
+  @font-face{
+    font-family: 'Neue-montreal';
+    font-weight: 300;
+    src: url('./assets/fonts/NeueMontreal_Light.woff2') format('woff2'),
+        url('./assets/fonts/NeueMontreal_Light.woff') format('woff')
+  }
+  @font-face{
+    font-family: 'Neue-montreal';
+    font-weight: 400;
+    src: url('./assets/fonts/NeueMontreal_regular.woff2') format('woff2'),
+        url('./assets/fonts/NeueMontreal_regular.woff') format('woff')
+  }
+  @font-face{
+    font-family: 'Neue-montreal';
+    font-weight: 500;
+    src: url('./assets/fonts/NeueMontreal_medium.woff2') format('woff2'),
+        url('./assets/fonts/NeueMontreal_medium.woff') format('woff')
+  }
+  @font-face{
+    font-family: 'Neue-montreal';
+    font-weight: 700;
+    src: url('./assets/fonts/NeueMontreal_bold.woff2') format('woff2'),
+        url('./assets/fonts/NeueMontreal_bold.woff') format('woff')
+  }
+}
+
+@layer utilities{
+  .word-spacing{
+    word-spacing: -0.1em;
+  }
+}
+
+.active{
+  background-color: white;
+  border-radius: 100vw;
+}
