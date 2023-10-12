@@ -16,28 +16,17 @@
   }
   
   @font-face{
-    font-family: 'Neue-montreal';
-    font-weight: 300;
-    src: url('./assets/fonts/NeueMontreal_Light.woff2') format('woff2'),
-        url('./assets/fonts/NeueMontreal_Light.woff') format('woff')
-  }
-  @font-face{
-    font-family: 'Neue-montreal';
+    font-family: 'Neue_Montreal_Regular';
     font-weight: 400;
-    src: url('./assets/fonts/NeueMontreal_regular.woff2') format('woff2'),
-        url('./assets/fonts/NeueMontreal_regular.woff') format('woff')
+    src: url('./assets/fonts/Neue_Montreal_Regular.woff2') format('woff2'),
+        url('./assets/fonts/Neue_Montreal_Regular.woff') format('woff')
   }
+  
   @font-face{
-    font-family: 'Neue-montreal';
-    font-weight: 500;
-    src: url('./assets/fonts/NeueMontreal_medium.woff2') format('woff2'),
-        url('./assets/fonts/NeueMontreal_medium.woff') format('woff')
-  }
-  @font-face{
-    font-family: 'Neue-montreal';
-    font-weight: 700;
-    src: url('./assets/fonts/NeueMontreal_bold.woff2') format('woff2'),
-        url('./assets/fonts/NeueMontreal_bold.woff') format('woff')
+    font-family: 'Neue_Montreal_Medium';
+    font-weight: 400;
+    src: url('./assets/fonts/Neue_Montreal_Medium.woff2') format('woff2'),
+        url('./assets/fonts/Neue_Montreal_Medium.woff') format('woff')
   }
 }
 

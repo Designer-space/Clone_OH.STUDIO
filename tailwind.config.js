@@ -2,12 +2,13 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/**/**.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       fontFamily: {
-        primary: "Neue-montreal",
+        primary: "Neue_Montreal_Regular",
+        secondary: "Neue_Montreal_Medium",
       },
       fontSize: {
         "fluid-header": "var(--fluid-header)",

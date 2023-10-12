@@ -1,10 +1,9 @@
 import React from 'react'
-import Logo from '../../assets/images/logo.svg'
 
 const FooterSection = () => {
   return (
     <>
-      <div className="max-w-[1440px] mx-auto py-6 text-sm px-12 h-min">
+      <div className="max-w-[1440px] mx-auto py-6 text-sm px-12 h-min font-secondary font-medium">
         <div className="flex flex-col justify-center items-center gap-2 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex gap-2 items-center">
             <div className="w-6">
@@ -16,9 +15,9 @@ const FooterSection = () => {
           <p>© Oli Harris 2023</p>
           </div>
           <div className="flex gap-4">
-            <a href="#" className='text-accent-900 font-medium hover:text-accent-400 focus:text-accent-400'>Twitter</a>
-            <a href="#" className='text-accent-900 font-medium hover:text-accent-400 focus:text-accent-400'>Linkedin</a>
-            <a href="#" className='text-accent-900 font-medium hover:text-accent-400 focus:text-accent-400'>Mail</a>
+            <a href="#" className='text-accent-900 hover:text-accent-400 focus:text-accent-400'>Twitter</a>
+            <a href="#" className='text-accent-900 hover:text-accent-400 focus:text-accent-400'>Linkedin</a>
+            <a href="#" className='text-accent-900 hover:text-accent-400 focus:text-accent-400'>Mail</a>
           </div>
         </div>
       </div>
