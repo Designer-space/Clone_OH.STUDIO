@@ -67,18 +67,55 @@ import Propeller_img8_1 from './src/assets/images/Project/Project5/img8.1.webp'
 import Propeller_img8_2 from './src/assets/images/Project/Project5/img8.2.mp4'
 import Propeller_img9 from './src/assets/images/Project/Project5/img9.webp'
 
-// import Schuh_same from './src/assets/images/Projects/Schuh.webp'
-// import Schuh_img1 from './src/assets/images/Project/Project6/img1.webp'
-// import Schuh_img2_1 from './src/assets/images/Project/Project6/img2.1.webp'
-// import Schuh_img2_2 from './src/assets/images/Project/Project6/img2.2.webp'
-// import Schuh_img3 from './src/assets/images/Project/Project6/img3.webp'
-// import Schuh_img4 from './src/assets/images/Project/Project6/img4.webp'
-// import Schuh_img5 from './src/assets/images/Project/Project6/img5.webp'
-// import Schuh_img6_1 from './src/assets/images/Project/Project6/img6.1.webp'
-// import Schuh_img6_2 from './src/assets/images/Project/Project6/img6.2.webp'
-// import Schuh_img7 from './src/assets/images/Project/Project6/img7.webp'
+import Schuh_same from './src/assets/images/Projects/Schuh.webp'
+import Schuh_img1 from './src/assets/images/Project/Project6/img1.webp'
+import Schuh_img2_1 from './src/assets/images/Project/Project6/img2.1.webp'
+import Schuh_img2_2 from './src/assets/images/Project/Project6/img2.2.webp'
+import Schuh_img3 from './src/assets/images/Project/Project6/img3.webp'
+import Schuh_img4 from './src/assets/images/Project/Project6/img4.webp'
+import Schuh_img5 from './src/assets/images/Project/Project6/img5.webp'
+import Schuh_img6_1 from './src/assets/images/Project/Project6/img6.1.webp'
+import Schuh_img6_2 from './src/assets/images/Project/Project6/img6.2.webp'
+import Schuh_img7 from './src/assets/images/Project/Project6/img7.webp'
 
+import Paperstreet_same from './src/assets/images/Projects/Paperstreet.webp'
+import Paperstreet_img1 from './src/assets/images/Project/Project7/img1.webp'
+import Paperstreet_img2_1 from './src/assets/images/Project/Project7/img2.1.webp'
+import Paperstreet_img2_2 from './src/assets/images/Project/Project7/img2.2.webp'
+import Paperstreet_img3 from './src/assets/images/Project/Project7/img3.webp'
+import Paperstreet_img4_1 from './src/assets/images/Project/Project7/img4.1.webp'
+import Paperstreet_img4_2 from './src/assets/images/Project/Project7/img4.2.webp'
+import Paperstreet_img5 from './src/assets/images/Project/Project7/img5.webp'
+import Paperstreet_img6 from './src/assets/images/Project/Project7/img6.webp'
+import Paperstreet_img7 from './src/assets/images/Project/Project7/img7.webp'
+import Paperstreet_img8_1 from './src/assets/images/Project/Project7/img8.1.webp'
+import Paperstreet_img8_2 from './src/assets/images/Project/Project7/img8.2.webp'
 
+import OHSUPPLY_img1 from './src/assets/images/Project/Project8/img1.webp'
+import OHSUPPLY_img2_1 from './src/assets/images/Project/Project8/img2.1.webp'
+import OHSUPPLY_img2_2 from './src/assets/images/Project/Project8/img2.2.webp'
+import OHSUPPLY_img2_3 from './src/assets/images/Project/Project8/img2.3.webp'
+import OHSUPPLY_img3 from './src/assets/images/Project/Project8/img3.webp'
+
+import Monokel_Eyewear_same from './src/assets/images/Projects/Monokel_Eyewear.webp'
+import Monokel_Eyewear_img1 from './src/assets/images/Project/Project7/img1.webp'
+import Monokel_Eyewear_img2_1 from './src/assets/images/Project/Project7/img2.1.webp'
+import Monokel_Eyewear_img2_2 from './src/assets/images/Project/Project7/img2.2.webp'
+import Monokel_Eyewear_img3 from './src/assets/images/Project/Project7/img3.webp'
+import Monokel_Eyewear_img4 from './src/assets/images/Project/Project7/img4.webp'
+import Monokel_Eyewear_img5 from './src/assets/images/Project/Project7/img5.webp'
+
+import NYCB_same from './src/assets/images/Projects/Nybc.mp4'
+import NYCB_img1 from './src/assets/images/Project/Project10/img1.webp'
+import NYCB_img2 from './src/assets/images/Project/Project10/img2.webp'
+import NYCB_img3_1 from './src/assets/images/Project/Project10/img3.1.webp'
+import NYCB_img3_2 from './src/assets/images/Project/Project10/img3.2.webp'
+import NYCB_img4 from './src/assets/images/Project/Project10/img4.webp'
+import NYCB_img5_1 from './src/assets/images/Project/Project10/img5.1.webp'
+import NYCB_img5_2 from './src/assets/images/Project/Project10/img5.2.webp'
+import NYCB_img6 from './src/assets/images/Project/Project10/img6.webp'
+import NYCB_img7_1 from './src/assets/images/Project/Project10/img7.1.webp'
+import NYCB_img7_2 from './src/assets/images/Project/Project10/img7.2.webp'
 
 const projectData = [
   {
@@ -191,25 +228,95 @@ const projectData = [
     img8_2: Propeller_img8_2,
     img9: Propeller_img9,
   },
-  // {
-  //   heading: 'A new online look for one of the biggest footwear retailers',
-  //   title: 'Schuh',
-  //   client: 'Schuh',
-  //   studio: "A_TK",
-  //   role: "Senior Designer",
-  //   focus: "Digital",
-  //   same: Schuh_same,
-  //   overView: "I crafted a series of user interfaces for their ecommerce platform. To supplement the designs I also art directed a range of imagery inspired by Monokel's Scandinavian heritage",
-  //   img1: Schuh_img1,
-  //   img2_1: Schuh_img2_1,
-  //   img2_2: Schuh_img2_2,
-  //   img3: Schuh_img3,
-  //   img4: Schuh_img4,
-  //   img5: Schuh_img5,
-  //   img6_1: Schuh_img6_1,
-  //   img6_2: Schuh_img6_2,
-  //   img7: Schuh_img7,
-  // },
+  {
+    heading: 'A new online look for one of the biggest footwear retailers',
+    title: 'Schuh',
+    client: 'Schuh',
+    studio: "A_TK",
+    role: "Senior Designer",
+    focus: "Digital",
+    same: Schuh_same,
+    overView: "I crafted a series of user interfaces for their ecommerce platform. To supplement the designs I also art directed a range of imagery inspired by Monokel's Scandinavian heritage",
+    img1: Schuh_img1,
+    img2_1: Schuh_img2_1,
+    img2_2: Schuh_img2_2,
+    img3: Schuh_img3,
+    img4: Schuh_img4,
+    img5: Schuh_img5,
+    img6_1: Schuh_img6_1,
+    img6_2: Schuh_img6_2,
+    img7: Schuh_img7,
+  },
+  {
+    heading: 'Making investor updates easy with Paperstreet',
+    title: 'Paperstreet',
+    client: 'Paperstreet',
+    studio: "Friendly Studio",
+    role: "Lead Designer",
+    focus: "Product Design",
+    same: Paperstreet_same,
+    overView: "Paperstreet is the fastest and easiest way to share your startup's progress with anyone. As lead designer, I worked directly with Carter and Matt at Paperstreet to understand their audience and challenges, so I could design a user-friendly platform that made sharing investor updates as easy as possible.",
+    img1: Paperstreet_img1,
+    img2_1: Paperstreet_img2_1,
+    img2_2: Paperstreet_img2_2,
+    img3: Paperstreet_img3,
+    img4_1: Paperstreet_img4_1,
+    img4_2: Paperstreet_img4_2,
+    img5: Paperstreet_img5,
+    img7: Paperstreet_img6,
+    img7: Paperstreet_img7,
+    img8_1: Paperstreet_img8_1,
+    img8_2: Paperstreet_img8_2,
+  },
+  {
+    heading: 'Pixel-perfect icons for your next design project',
+    title: 'OH.SUPPLY',
+    client: 'OH.SUPPLY',
+    role: "Designer",
+    focus: "Iconography",
+    overView: "I've designed a pixel-perfect icon pack, that will launch soon as a purchasable asset. This pack features over 200 beautifully designed icons, each expertly crafted within a 24x24px bounding box and featuring a consistent 2px stroke. Perfect for your next interface design.",
+    img1: OHSUPPLY_img1,
+    img2_1: OHSUPPLY_img2_1,
+    img2_2: OHSUPPLY_img2_2,
+    img2_3: OHSUPPLY_img2_3,
+    img3: OHSUPPLY_img3,
+  },
+  {
+    heading: 'A minimal interface for a Swedish sunglasses brand',
+    title: 'Monokel Eyewear',
+    client: 'Monokel Eyewear',
+    studio: "OH&CO",
+    role: "Lead Designer",
+    focus: "Digital",
+    same: Monokel_Eyewear_same,
+    overView: "I crafted a series of user interfaces for Monokel's ecommerce platform. I also art directed a range of imagery inspired by Monokel's Scandinavian heritage.",
+    img1: Monokel_Eyewear_img1,
+    img2_1: Monokel_Eyewear_img2_1,
+    img2_2: Monokel_Eyewear_img2_2,
+    img3: Monokel_Eyewear_img3,
+    img4: Monokel_Eyewear_img4,
+    img5: Monokel_Eyewear_img5,
+  },
+  {
+    heading: 'A new website for an iconic dance company',
+    title: 'NYCB',
+    client: 'NYCB',
+    studio: "Made Media",
+    role: "Lead Designer",
+    focus: "Digital",
+    video: NYCB_same,
+    overView: "New York City Ballet is one of the foremost dance companies in the world, with a roster of spectacular dancers and an unparalleled repertory. I worked with Made Media to design their new website.",
+    img1: NYCB_img1,
+    img2: NYCB_img2,
+    img3_1: NYCB_img3_1,
+    img3_2: NYCB_img3_2,
+    img4: NYCB_img4,
+    img5_1: NYCB_img5_1,
+    img5_2: NYCB_img5_2,
+    img6: NYCB_img6,
+    img7_1: NYCB_img7_1,
+    img7_2: NYCB_img7_2,
+  },
 ]
 
 export default projectData

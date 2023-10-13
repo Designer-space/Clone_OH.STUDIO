@@ -8,6 +8,7 @@ import ProjectCorrelated from './ProjectPages/ProjectCorrelated'
 import ProjectChannel_5 from './ProjectPages/ProjectChannel_5';
 import ProjectRonald_Abram from './ProjectPages/ProjectRonald_Abram';
 import ProjectPropeller from './ProjectPages/ProjectPropeller';
+import ProjectSchuh from './ProjectPages/ProjectSchuh';
 
 const ProjectPage = () => {
   const params = useParams()
@@ -55,25 +56,25 @@ const ProjectPage = () => {
                 return <ProjectPropeller projectItem={projectItem} />;
 
               case 'Schuh': 
-                return <ProjectRonald_Abram projectItem={projectItem} />;
+                return <ProjectSchuh projectItem={projectItem} />;
 
               case 'Paperstreet': 
-                return <ProjectRonald_Abram projectItem={projectItem} />;
+                return <ProjectPaperstreet projectItem={projectItem} />;
                 
               case 'OH.SUPPLY': 
-                return <ProjectRonald_Abram projectItem={projectItem} />;
+                return <ProjectOHSUPPLY projectItem={projectItem} />;
 
               case 'Monokel Eyewear': 
-                return <ProjectRonald_Abram projectItem={projectItem} />;
+                return <ProjectMonokel_Eyewear projectItem={projectItem} />;
 
               case 'Lawtrades': 
-                return <ProjectRonald_Abram projectItem={projectItem} />;
+                return <ProjectLawtrades projectItem={projectItem} />;
 
               case 'Baselworld': 
-                return <ProjectRonald_Abram projectItem={projectItem} />;
+                return <ProjectBaselworld projectItem={projectItem} />;
 
               case 'NYCB': 
-                return <ProjectRonald_Abram projectItem={projectItem} />;
+                return <ProjectNYCB projectItem={projectItem} />;
             }
           })()}
 
