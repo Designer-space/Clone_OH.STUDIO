@@ -9,10 +9,14 @@ import ProjectChannel_5 from './ProjectPages/ProjectChannel_5';
 import ProjectRonald_Abram from './ProjectPages/ProjectRonald_Abram';
 import ProjectPropeller from './ProjectPages/ProjectPropeller';
 import ProjectSchuh from './ProjectPages/ProjectSchuh';
+import ProjectPaperstreet from './ProjectPages/ProjectPaperstreet'
+import ProjectOHSUPPLY from './ProjectPages/ProjectOHSUPPLY'
+import ProjectMonokel_Eyewear from './ProjectPages/ProjectMonokel_Eyewear'
+import ProjectNYCB from './ProjectPages/ProjectNYCB'
+import ComingSoon from './ProjectPages/ComingSoon';
 
 const ProjectPage = () => {
   const params = useParams()
-  // console.log(params);
   useEffect(() =>{
     document.title = params.id;
   },[])
@@ -21,11 +25,6 @@ const ProjectPage = () => {
     return project.title === params.id;
   })
 
-  useEffect(() => {
-    
-  }, []);
-
-  // console.log(projectItem);
 
   return (
     <>
@@ -67,14 +66,11 @@ const ProjectPage = () => {
               case 'Monokel Eyewear': 
                 return <ProjectMonokel_Eyewear projectItem={projectItem} />;
 
-              case 'Lawtrades': 
-                return <ProjectLawtrades projectItem={projectItem} />;
-
-              case 'Baselworld': 
-                return <ProjectBaselworld projectItem={projectItem} />;
-
               case 'NYCB': 
                 return <ProjectNYCB projectItem={projectItem} />;
+              
+              default:
+                return <ComingSoon />
             }
           })()}
 

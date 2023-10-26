@@ -10,7 +10,7 @@ const Card = ({ img, title, type }) => {
         <div className='group overflow-hidden relative rounded-xl font-primary mt-5 md:mt-0 h-full'>
           <div className="w-full h-full">
             {
-              filetype === "webp" ? <img src={ img } alt={title} className='object-cover w-full h-full' loading='lazy' /> : <video src={ img } className='object-cover w-full h-full' autoPlay loop muted ></video>
+              filetype === "webp" ? <img src={ img } alt={title} className='object-cover w-full h-full' loading='lazy' /> : <video src={ img } className='object-cover w-full h-full' autoPlay loop muted playsInline></video>
             }
           </div>
           <div className="absolute inset-0 bg-accent-900/25 backdrop-blur-md opacity-0 md:group-hover:opacity-100 duration-300 px-6 py-4 flex justify-between">

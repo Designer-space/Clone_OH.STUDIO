@@ -28,6 +28,11 @@
     src: url('./assets/fonts/Neue_Montreal_Medium.woff2') format('woff2'),
         url('./assets/fonts/Neue_Montreal_Medium.woff') format('woff')
   }
+
+  html{
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
 }
 
 @layer utilities{
