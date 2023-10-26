@@ -2,46 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  :root{
-    --clr-accent-100: 255 255 255;
-    --clr-accent-200: 232 229 228;
-    --clr-accent-400: 127 127 127;
-    --clr-accent-900: 0 0 0;
+@layer base {
+	:root {
+		--clr-accent-100: 255 255 255;
+		--clr-accent-200: 232 229 228;
+		--clr-accent-400: 127 127 127;
+		--clr-accent-900: 0 0 0;
 
-    --fluid-header: clamp(2.0625rem, 1.3403rem + 3.6111vw, 4.5rem);
-    --fluid-sub-header: clamp(1.5rem, 1.25rem + 1.25vw, 2.375rem);
+		--fluid-header: clamp(2.0625rem, 1.3403rem + 3.6111vw, 4.5rem);
+		--fluid-sub-header: clamp(1.5rem, 1.25rem + 1.25vw, 2.375rem);
 
-    --custom-gap: clamp(1.25rem, -8.75rem + 20.8333vw, 10rem);
-  }
-  
-  @font-face{
-    font-family: 'Neue_Montreal_Regular';
-    font-weight: 400;
-    src: url('./assets/fonts/Neue_Montreal_Regular.woff2') format('woff2'),
-        url('./assets/fonts/Neue_Montreal_Regular.woff') format('woff')
-  }
-  
-  @font-face{
-    font-family: 'Neue_Montreal_Medium';
-    font-weight: 400;
-    src: url('./assets/fonts/Neue_Montreal_Medium.woff2') format('woff2'),
-        url('./assets/fonts/Neue_Montreal_Medium.woff') format('woff')
-  }
+		--custom-gap: clamp(1.25rem, -8.75rem + 20.8333vw, 10rem);
+	}
 
-  html{
-    -webkit-font-smoothing: antialiased;
-    scroll-behavior: smooth;
-  }
+	@font-face {
+		font-family: "Neue_Montreal_Regular";
+		font-weight: 400;
+		src: url("./assets/fonts/Neue_Montreal_Regular.woff2") format("woff2"),
+			url("./assets/fonts/Neue_Montreal_Regular.woff") format("woff");
+	}
+
+	@font-face {
+		font-family: "Neue_Montreal_Medium";
+		font-weight: 400;
+		src: url("./assets/fonts/Neue_Montreal_Medium.woff2") format("woff2"),
+			url("./assets/fonts/Neue_Montreal_Medium.woff") format("woff");
+	}
+
+	html {
+		-webkit-font-smoothing: antialiased;
+		scroll-behavior: smooth;
+	}
 }
 
-@layer utilities{
-  .word-spacing{
-    word-spacing: -0.1em;
-  }
+@layer utilities {
+	.word-spacing {
+		word-spacing: -0.1em;
+	}
 }
 
-.active{
-  background-color: white;
-  border-radius: 100vw;
+.active {
+	background-color: white;
+	border-radius: 100vw;
 }
