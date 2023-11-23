@@ -6,6 +6,7 @@ const SingleVideo = (props) => {
 	return (
 		<motion.div
 			variants={varient}
+			viewport={{ once: true }}
 			initial='hidden'
 			whileInView='show'
 			transition={{ duration: 0.5 }}

@@ -90,20 +90,6 @@ const ProjectPage = () => {
 							return <ComingSoon />;
 					}
 				})()}
-
-				{params.id === "Lawtrades"
-					? ""
-					: params.id === "Baselworld"
-					? ""
-					: `<div className="h-[50vh]">
-            <ContactSection fontSize={ 'text-fluid-sub-header' } />
-          </div>
-          <FooterSection />`}
-
-				{/* <div className="h-[50vh]">
-          <ContactSection fontSize={ 'text-fluid-sub-header' } />
-        </div>
-        <FooterSection /> */}
 			</div>
 		</>
 	);
