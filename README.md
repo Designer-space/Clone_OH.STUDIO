@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
     ```bash
     cd Clone_OH.STUDIO
     ```
-3. Install dependencies (if applicable):
+3. Install dependencies:
     ```bash
     npm install
     ```
